@@ -1,0 +1,12 @@
+[package]
+name = "bench_hash"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+hex = "0.4.3"
+plonky2 = "1.1.0"
+plonky2_field = "1.0.0"
+plonky2_maybe_rayon = "1.0.0"
+sha2 = "0.10.9"
+sha256 = "1.6.0"
