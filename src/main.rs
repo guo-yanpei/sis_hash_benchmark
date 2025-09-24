@@ -96,7 +96,7 @@ fn main() {
     }
     let start = Instant::now();
     println!("{}", sha256_hex_bytes(&bytes));
-    println!("sha256 time: {}s", start.elapsed().as_secs());
+    println!("sha256 time: {}ms", start.elapsed().as_millis());
 
     // FRI commitment constants
     let mut hash_coeffs = Vec::new();
